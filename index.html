@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fixigo - Home Appliance Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <h1 class="logo">Fixigo</h1>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#offers">Offers</a>
+        <a href="#booking">Book Now</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Home Appliance Repairs at Your Doorstep</h2>
+      <p>Trusted, Verified, Affordable. Book Expert Technicians Now!</p>
+      <a href="#booking" class="btn">Book a Service</a>
+    </div>
+  </section>
+
+  <section id="services" class="services container">
+    <h3>Popular Services</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="icons/ac.png" alt="AC Service">
+        <h4>AC Repair</h4>
+        <p>John Doe <br> ⭐ 4.7</p>
+      </div>
+      <div class="card">
+        <img src="icons/tv.png" alt="TV Service">
+        <h4>TV Repair</h4>
+        <p>Priya Kumar <br> ⭐ 4.5</p>
+      </div>
+      <div class="card">
+        <img src="icons/fridge.png" alt="Fridge Service">
+        <h4>Fridge Repair</h4>
+        <p>Arjun Mehta <br> ⭐ 4.6</p>
+      </div>
+      <div class="card">
+        <img src="icons/washer.png" alt="Washing Machine">
+        <h4>Washing Machine</h4>
+        <p>Sneha Sharma <br> ⭐ 4.8</p>
+      </div>
+      <div class="card">
+        <img src="icons/stove.png" alt="Induction Stove">
+        <h4>Induction Stove</h4>
+        <p>Rakesh Singh <br> ⭐ 4.4</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="offers" class="offers container">
+    <h3>🔥 Current Offers</h3>
+    <ul>
+      <li>20% off on AC Repairs this summer</li>
+      <li>Free diagnostics for washing machines</li>
+      <li>₹100 cashback on your first service</li>
+    </ul>
+  </section>
+
+  <section id="booking" class="booking container">
+    <h3>Book a Service</h3>
+    <form id="booking-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="service">Select Service</label>
+      <select id="service" name="service">
+        <option value="ac">AC Repair</option>
+        <option value="tv">TV Repair</option>
+        <option value="fridge">Fridge Repair</option>
+        <option value="washing">Washing Machine</option>
+        <option value="stove">Induction Stove</option>
+      </select>
+
+      <label for="date">Preferred Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <button type="submit" class="btn">Confirm Booking</button>
+    </form>
+  </section>
+
+  <footer id="contact">
+    <div class="container">
+      <p>© 2025 Fixigo. All rights reserved.</p>
+      <p>Email: support@fixigo.com | Phone: +91 98765 43210</p>
+    </div>
+  </footer>
+</body>
+
+</html>
